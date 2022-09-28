@@ -1,7 +1,34 @@
+hr {
+    border: 3px solid black;
+}
+
 /* ------- Class CSS ------- */
+.about-author, .procedure-header {
+    color: #000000;
+}
+
+.author, .procedure {
+    background-color: #a6c5a8;
+}
+
+.footer {
+    background-color: #156b1a;
+}
+
+.icon-white {
+    color: #ffffff;
+}
+
 .nb-bg-color {
     background-color: #156b1a;
-    transition: background-color 750ms ease;
+}
+
+.overview {
+    background-color: #a6c5a8;
+}
+
+.showcase {
+    background-color: #56945a;
 }
 
 /* ------- ID CSS ------- */
@@ -10,12 +37,25 @@ a#nb-menu-link {
     padding: 0 20;
 }
 
+div#about {
+    width: 400px;
+    margin: auto;
+}
+
+h1#ovPadLeft, p#ovPadLeft {
+    padding-left: 1vw;
+}
+
+h1#ovPadRight, p#ovPadRight {
+    padding-right: 1vw;
+}
+
 /* ------- Underline Animation CSS ------- */
 .hover-underline-animation {
     display: inline-block;
     position: relative;
     /*color: #0087ca;*/
-  }
+}
   
 .hover-underline-animation:after {
     content: '';
