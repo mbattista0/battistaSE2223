@@ -1,0 +1,99 @@
+hr {
+    border: 3px solid black;
+}
+
+/* ------- Class CSS ------- */
+.about-author, .procedure-header {
+    color: #000000;
+}
+
+.author, .procedure {
+    background-color: #a6c5a8;
+}
+
+.footer {
+    background-color: #156b1a;
+}
+
+.icon-white {
+    color: #ffffff;
+}
+
+.logo {
+    height: 75px;
+}
+
+.logo-container {
+    height: 50px;
+    width: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.nb-bg-color {
+    background-color: #156b1a;
+}
+
+.overview {
+    background-color: #a6c5a8;
+}
+
+.procedure-image {
+    width: 15vw;
+}
+
+.procedure-table {
+    padding: 50px;
+}
+
+.procedure-table * tr *:first-child {
+    text-align: center;
+}
+
+.showcase {
+    background-color: #56945a;
+}
+
+/* ------- ID CSS ------- */
+a#nb-menu-link {
+    font-size: 25px;
+    padding: 0 20;
+}
+
+div#about {
+    width: 400px;
+    margin: auto;
+}
+
+h1#ovPadLeft, p#ovPadLeft {
+    padding-left: 1vw;
+}
+
+h1#ovPadRight, p#ovPadRight {
+    padding-right: 1vw;
+}
+
+/* ------- Underline Animation CSS ------- */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /*color: #0087ca;*/
+}
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #eae6e6;
+    /*transform-origin: bottom right;*/
+    transition: transform 0.35s ease-out;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    /*transform-origin: bottom left;*/
+}
