@@ -61,7 +61,7 @@ a#nb-menu-link {
 }
 
 div#about {
-    width: 400px;
+    max-width: 400px;
     margin: auto;
 }
 
