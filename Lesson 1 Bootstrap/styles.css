@@ -19,12 +19,35 @@ hr {
     color: #ffffff;
 }
 
+.logo {
+    height: 75px;
+}
+
+.logo-container {
+    height: 50px;
+    width: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
 .nb-bg-color {
     background-color: #156b1a;
 }
 
 .overview {
     background-color: #a6c5a8;
+}
+
+.procedure-image {
+    width: 15vw;
+}
+
+.procedure-table {
+    padding: 50px;
+}
+
+.procedure-table * tr *:first-child {
+    text-align: center;
 }
 
 .showcase {
