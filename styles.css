@@ -3,7 +3,7 @@ hr {
 }
 
 /* ------- Class CSS ------- */
-.about-author, .procedure-header {
+.about-author, .procedure-header, .results-header {
     color: #000000;
 }
 
@@ -71,6 +71,11 @@ h1#ovPadLeft, p#ovPadLeft {
 
 h1#ovPadRight, p#ovPadRight {
     padding-right: 1vw;
+}
+
+#results-graph {
+    background-color: white;
+    border-radius: 10px;
 }
 
 /* ------- Underline Animation CSS ------- */
