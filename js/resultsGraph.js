@@ -10,7 +10,7 @@ async function getData() {
     const oneHandDetach = [];           // one hand can detachment time
     const x = [];                       // x-axis labels
 
-    const table = data.split('\r\n').slice(1);    // split by line and remove the header row
+    const table = data.split('\n').slice(1);    // split by line and remove the header row
 
     table.forEach(row => {              // iterate through each row
         const columns = row.split(','); // split each row into columns
