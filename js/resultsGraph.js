@@ -1,7 +1,7 @@
 // Graph CSV data using chart.js
 
 async function getData() {
-    const response = await fetch('../data/se_rp_experiment_trial_data.csv');
+    const response = await fetch('./../data/se_rp_experiment_trial_data.csv');
     const data = await response.text(); // CSV in text format
 
     const bothHandsAttach = [];         // two hand can attachment time
